@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.border{
+  border: 3px solid red;
+}
+
+.mycolor{
+  color: red;
+}
+
+.dark .mycolor{
+  color: teal;
+}
+
+@media (max-width: 900px) {
+  .MyLest{
+    position: fixed;
+        background-color: rgb(38 38 38);
+        top: 50px;
+        bottom: 0;
+        left: 0;
+        z-index: 5;
+        padding-top: 15px;
+  }
+}
